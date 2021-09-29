@@ -1,0 +1,1 @@
+This app tells your birthday date is lucky or not !

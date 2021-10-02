@@ -7,8 +7,8 @@ btnCheck.addEventListener("click",BirthdayLuckyhandler);
 function BirthdayLuckyhandler(){
     let dob=DOB.value;
     const lucky=LuckyNumber.value
-    if(dob=="" ||lucky ==""){
-        OutputDisplay.innerText="Please enter both input"
+    if(dob=="" ||lucky =="" || lucky < 0){
+        OutputDisplay.innerText="Please enter both or positve input  "
     }
     else{
     const sum=FindSumofDob(dob);
